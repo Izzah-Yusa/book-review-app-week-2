@@ -3,10 +3,16 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 }
 
 section {
-  width: 80%;
+  width: 80vw;
+}
+
+section h4 {
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 P {
@@ -92,9 +98,6 @@ P {
   font-size: 2rem;
 }
 
-.book-info--add span {
-}
-
 .book-rating,
 .book-review {
   margin-bottom: 1rem;
@@ -147,4 +150,49 @@ p.long-summary {
 a.read-preview {
   color: #000;
   border-bottom: 2px #000 solid;
+}
+
+.booklist--cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.booklist--card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 15%;
+}
+
+.book-card-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.book-card-cover > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.readers-review--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+}
+
+.review {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
 }
