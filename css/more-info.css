@@ -1,0 +1,150 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 80%;
+}
+
+P {
+  line-height: 1.5;
+}
+
+.books-info {
+  background-color: #2a2c2e;
+  display: grid;
+  grid-template-columns: 30% auto 30%;
+  gap: 0.8rem;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book-info a {
+  color: #fff;
+  border-bottom: 1px #fff solid;
+}
+
+.book-cover-jumbo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bookmark {
+  background-color: #2a2c2e;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  right: 5%;
+  top: 5%;
+  padding: 0.8rem;
+}
+
+.bookmark > img {
+  width: 80%;
+  height: auto;
+}
+
+.book-cover {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.book-cover > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.book-info p {
+  color: #fff;
+}
+
+.book-info--add {
+  display: flex;
+  gap: 2rem;
+
+  height: 50%;
+}
+
+.book-info-add--left {
+  font-weight: 500;
+}
+
+.book-info--author {
+  font-size: 1.23rem;
+}
+
+.book-info--title {
+  font-size: 2rem;
+}
+
+.book-info--add span {
+}
+
+.book-rating,
+.book-review {
+  margin-bottom: 1rem;
+}
+
+.book-price {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.add-to-bag {
+  background-color: transparent;
+  border: 2px #f4ce47 solid;
+  color: #f4ce47;
+  margin-left: 1rem;
+}
+
+.book-summary-header,
+.reception {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary,
+.reception {
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+}
+.summary {
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reception {
+  background-color: #f6f4f0;
+}
+
+p.long-summary {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 14;
+  -webkit-box-orient: vertical;
+  font-family: Literata;
+  margin-bottom: 2rem;
+}
+
+a.read-preview {
+  color: #000;
+  border-bottom: 2px #000 solid;
+}
