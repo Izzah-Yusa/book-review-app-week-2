@@ -109,6 +109,10 @@ P {
   font-size: 2rem;
 }
 
+p.old-price{
+  color: rgba(255, 255, 255, .6)
+}
+
 .add-to-bag {
   background-color: transparent;
   border: 2px #f4ce47 solid;
@@ -128,6 +132,7 @@ P {
   border-radius: 20px;
   padding: 1rem 1.5rem;
 }
+
 .summary {
   background-color: #fff;
   margin-bottom: 1rem;
@@ -137,7 +142,7 @@ P {
   background-color: #f6f4f0;
 }
 
-p.long-summary {
+p.long-summary, .user-review {
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
@@ -232,4 +237,15 @@ section.booklist > h4, .readers-review--header{
 .review-header {
   display: flex;
   justify-content: space-between;
+}
+
+p.user-review{
+  margin-bottom: 1rem;
+  -webkit-line-clamp: 5;
+}
+
+.review a {
+  color: #000;
+  border-bottom: 1px #000 solid;
+  padding-bottom: 0.2rem;
 }
