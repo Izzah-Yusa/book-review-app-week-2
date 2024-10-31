@@ -169,12 +169,29 @@ section.booklist > h4, .readers-review--header{
   border-radius: 20px;
   width: 16%;
   cursor: pointer;
- 
+  position: relative;
 }
 
 .book-card-cover {
   display: flex;
   justify-content: center;
+}
+
+.booklist--bookmark{
+  padding: 0.6rem;
+  background-color: #2a2c2e;
+  border-radius: 50%;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booklist--bookmark img{
+  width: 70%;
+  height: auto;
 }
 
 .book-card-cover > img {
@@ -186,6 +203,18 @@ section.booklist > h4, .readers-review--header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.readers-review--header button {
+  background-color: transparent;
+  border: 1px #000 solid;
+}
+
+.readers-review--header button:hover {
+  color: #fff;
+  background-color: #f4ce47;
+  border: 1px #f4ce47 solid;
+  transition: 150ms all ease-in-out;
 }
 
 .reviews {
