@@ -152,6 +152,11 @@ a.read-preview {
   border-bottom: 2px #000 solid;
 }
 
+section.booklist > h4, .readers-review--header{
+
+  margin-bottom: 1rem;
+}
+
 .booklist--cards {
   display: flex;
   flex-wrap: wrap;
@@ -162,7 +167,9 @@ a.read-preview {
   background-color: #fff;
   padding: 1rem;
   border-radius: 20px;
-  width: 15%;
+  width: 16%;
+  cursor: pointer;
+ 
 }
 
 .book-card-cover {
@@ -178,6 +185,7 @@ a.read-preview {
 .readers-review--header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .reviews {
