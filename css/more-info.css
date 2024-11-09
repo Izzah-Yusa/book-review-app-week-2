@@ -148,7 +148,7 @@ p.long-summary, .user-review {
   display: -webkit-box;
   -webkit-line-clamp: 14;
   -webkit-box-orient: vertical;
-  font-family: Literata;
+  font-family: "Literata";
   margin-bottom: 2rem;
 }
 
