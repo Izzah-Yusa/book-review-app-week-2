@@ -6,25 +6,15 @@ main{
   border-radius: 20px;
 }
 
+h2{
+  margin-bottom: 1rem;
+}
+
 body{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.book-detail, .user-detail{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.register-book {
-  width: 55%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 1rem;
 }
 
 .section-title{
@@ -39,6 +29,20 @@ body{
   display: block;
   border-bottom: 1px white solid;
   flex-grow: 2;
+}
+
+.book-detail, .user-detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.register-book {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 form input{
@@ -58,7 +62,6 @@ input[type=radio]{
   gap: 40px;
   margin: 0.5rem 0;
 }
-
 
 .required-terms{
   align-items: baseline;
